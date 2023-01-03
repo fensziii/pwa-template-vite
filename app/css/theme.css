@@ -1,0 +1,25 @@
+:root{
+    --theme-background-0    : #FFFFFF;
+    --theme-background-1    : #DDDDDD;
+    --theme-background-2    : #BBBBBB;
+
+    --theme-text-0          : #111111;
+    --theme-text-1          : #333333;
+    --theme-text-1          : #555555;
+
+    --theme-accent-0        : #2C74B3;
+    --theme-accent-1        : #FED049;
+}
+
+html.dark{
+    --theme-background-0    : #101010;
+    --theme-background-1    : #212121;
+    --theme-background-2    : #323232;
+
+    --theme-text-0          : #FFFFFF;
+    --theme-text-1          : #DDDDDD;
+    --theme-text-1          : #BBBBBB;
+
+    --theme-accent-0        : #2C74B3;
+    --theme-accent-1        : #FED049;
+}

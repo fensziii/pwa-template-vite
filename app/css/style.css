@@ -1,0 +1,36 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import "./theme.css";
+
+body{
+    @apply w-screen h-screen bg-[var(--theme-background-0)] text-[var(--theme-text-0)];
+}
+
+.pwa-main{
+    @apply w-screen h-screen;
+}
+
+.pwa-main .header{
+    @apply flex flex-row items-center justify-start w-full h-14;
+}
+
+.pwa-main .header .logo{
+    @apply flex flex-row items-center justify-start px-5 h-14 text-[var(--theme-accent-0)];
+}
+
+.pwa-main .header .logo img{
+    @apply mr-5;
+}
+
+.pwa-main .header .logo font{
+    @apply text-xl font-semibold;
+}
+
+.pwa-main .content{
+    @apply max-w-7xl h-[calc(100vh-56px)] mx-auto;
+}
+
+.pwa-main .footer{
+    @apply flex flex-row items-center justify-center w-screen h-28 text-gray-600;
+}
